@@ -217,8 +217,8 @@ Lista completa en [`requirements.txt`](./requirements.txt).
 
 ## 👥 Autores
 
-- [Nombre completo] — [rol / correo institucional]
-- [Nombre completo] — [rol / correo institucional] *(si aplica, trabajo en díada)*
+- [Juan Camilo Urrea] — [Developer]
+- [Felipe Mosquera] — [Developer] 
 
 ---
 
