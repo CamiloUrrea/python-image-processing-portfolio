@@ -43,7 +43,7 @@ los tres como ejercicio de portafolio.
 3b2d909  feat: initial repository architecture and configuration   (scaffold vacío)
 05cd1a3  feat(case1): implementar pipeline de restauración de imágenes + CLI + notebook demo
 bf9b59a  feat(case2): implementar pipeline de conteo automático de objetos + notebook demo
-<HEAD>    feat(case3): implementar pipeline de reconocimiento de placas (OCR), notebook demo y contexto tecnico
+adc6982  feat(case3): implementar pipeline de reconocimiento de placas (OCR), notebook demo y contexto tecnico
 ```
 
 ## 3. Entorno de trabajo
