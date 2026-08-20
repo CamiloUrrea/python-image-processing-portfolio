@@ -1,0 +1,45 @@
+# ==========================================================
+# Requirements — Python for Research: Image Processing Portfolio
+# Casos: (1) Restauración  (2) Conteo de objetos  (3) OCR de placas
+# ==========================================================
+
+# --- Núcleo científico ---
+numpy>=1.24.0,<2.0.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# --- Procesamiento de imágenes / visión por computador ---
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+scikit-image>=0.21.0
+Pillow>=10.0.0
+imutils>=0.5.4
+
+# --- Machine learning clásico (métricas, segmentación auxiliar) ---
+scikit-learn>=1.3.0
+
+# --- OCR (Caso 3: reconocimiento de placas) ---
+easyocr>=1.7.0
+pytesseract>=0.3.10
+# Nota: pytesseract requiere Tesseract-OCR instalado a nivel de sistema
+#   Ubuntu/Debian: sudo apt-get install tesseract-ocr
+#   macOS:         brew install tesseract
+#   Windows:       https://github.com/UB-Mannheim/tesseract/wiki
+
+# --- Visualización ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# --- Notebooks / demos interactivos ---
+jupyter>=1.0.0
+notebook>=7.0.0
+ipywidgets>=8.0.0
+
+# --- Utilidades ---
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# --- Calidad de código (opcional, desarrollo) ---
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.1.0

@@ -1,0 +1,91 @@
+# ==========================================================
+# .gitignore — Python / Computer Vision Project
+# ==========================================================
+
+# --- Bytecode y cachés de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# --- Entornos virtuales ---
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Variables de entorno / secretos ---
+.env
+*.env.local
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- IDEs / editores ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Datasets pesados (mantener estructura de carpetas con .gitkeep) ---
+case1_restoration/data/raw/*
+!case1_restoration/data/raw/.gitkeep
+case1_restoration/data/processed/*
+!case1_restoration/data/processed/.gitkeep
+
+case2_object_counting/data/raw/*
+!case2_object_counting/data/raw/.gitkeep
+case2_object_counting/data/processed/*
+!case2_object_counting/data/processed/.gitkeep
+
+case3_license_plate/data/raw/*
+!case3_license_plate/data/raw/.gitkeep
+case3_license_plate/data/processed/*
+!case3_license_plate/data/processed/.gitkeep
+
+# --- Video / audio pesados (grabaciones para Caso 3) ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# --- Archivos comprimidos de datasets ---
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# --- Pesos de modelos descargados (EasyOCR, etc.) ---
+*.pth
+*.traineddata
+.EasyOCR/
+EasyOCR/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Reportes generados temporalmente (mantener el PDF final en docs/report) ---
+*.aux
+*.toc
+*.out
+
+# --- Pytest / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
