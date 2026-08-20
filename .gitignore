@@ -89,3 +89,7 @@ logs/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# --- Guiones de video (borradores privados, no se publican en GitHub) ---
+docs/scripts/
+*video_script*
