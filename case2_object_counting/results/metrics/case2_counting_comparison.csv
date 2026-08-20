@@ -1,0 +1,4 @@
+method,count,ground_truth,abs_error,rel_error_%
+watershed,35,40,5,12.5
+contornos,28,40,12,30.0
+componentes_conexos,28,40,12,30.0
